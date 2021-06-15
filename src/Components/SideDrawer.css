@@ -105,7 +105,7 @@ main {
   .navbar {
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 10vh;
   }
 
   .navbar:hover {
@@ -138,6 +138,8 @@ main {
 
   main {
     margin: 0;
+    height: 85vh; /* Se puede qitar el heigh y solo colocar un margin button de 5 rem */
+    overflow: auto;
   }
 }
 
